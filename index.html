@@ -1,1 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- p5.js -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <!-- d3 -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- javascript -->
+    <script src="assets/js/main.js" type="text/javascript"></script>
+    <script src="assets/js/sketch.js" type="text/javascript"></script>
+
+    <title>Maxwell Urbani</title>
+</head>
+
+<body>
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-light navBar">
+    <a class="navbar-brand" href="#">Maxwell Urbani</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item active ml-5">
+                <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item pl-5">
+                <a class="nav-link" href="MAX_URBANI_Resume.pdf" target="_blank">Resume</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- main body container, responsive -->
+<div class="container">
+    <!-- title slide -->
+    <div class="row" id="coverText">
+        <div class="col-lg">
+            <h1>Maxwell Urbani,</h1>
+            <h1>Systems Engineer</h1>
+            <h2 class="subtitle">
+                Hello! I am data-driven, curious individual passionate about building control systems and the future of automation. I thrive at the intersection of mechanical engineering, controls theory, and programming.
+            </h2>
+        </div>
+        <div class="col-lg">
+            <div class="blobcontainer">
+                <img src="assets/img/LinearizedvsNonlinearizedTrajectory.JPG" id="coverImg" alt="Linear vs Nonlinear Trajectory">
+                <div class="shape"></div>
+            </div>
+        </div>
+    </div>
+    <!-- projects -->
+    <div class="row pt-5">
+        <div class="col-sm pt-5 mb-neg50">SELECTED WORKS</div>
+    </div>
+    <!-- only olympics project is live -->
+    <a href="assets/projects/Urbani_RoboticsFinalPaper.pdf" target="_blank" class="row project px-4 projectcontainer">
+        <div class="col-md py-2">
+            <img src="assets/img/cartpolemax.gif" class="image" alt="double pendulum animated gif">
+        </div>
+        <div class="col-md m-2">
+            <h3>Trajectory Optimization Paper</h3>
+            <p class="projectDescription">Matlab program that generates optimized trajectories for the cart pull swing up.</p>
+            <p class="projectDomain">Nonlinear Dynamics | Optimization | Direct Collocation</p>
+        </div>
+    </a>
+    <a href="assets/projects/Golf_Swing_Robot.pdf" target="_blank" class="row project px-4 projectcontainer">
+        <div class="row project mx-4">
+            <div class="col-md">
+                <img src="assets/img/System_Model_Controls.JPG">
+            </div>
+            <div class="col-md p-2">
+                <h3>Golf Swing Robot</h3>
+                <p class="projectDescription">Modeling analysis and controls for two-link golf swing robot.</p>
+                <p class="projectDomain">Control Theory - LQR & PID Controls</p>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div>
+    Copyright 2021 Maxwell Urbani
+</div>
+
+<!-- Javascript libraries from Bootstrap -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
