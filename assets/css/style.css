@@ -46,6 +46,11 @@ img {
     max-width: 100%;
 }
 
+.icon {
+    max-width: 10%;
+}
+
+
 ul.nav a:hover {
     color: var(--purple) !important;
     transition: .5s ease;
